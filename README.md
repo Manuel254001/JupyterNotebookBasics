@@ -1,5 +1,19 @@
 # An introduction to Jupyter Notebooks
 
+## Basic Git Information
+This a GitHub repository, essentially a remote version of my working directory on my laptop. You can easily copy everything from this repo using the command
+```
+git clone git@github.com:zekemorton/jupyterIntro.git
+```
+This will create a new folder within the current directory named jupyterIntro and that folder will contain all of the fils within this repository.
+
+
+Git is considered version control software and is a great tool for
+collaboration and to keep a history of all changes made to the repository.
+
+
+Let me know if you are interested in getting more information on git.  
+
 ## Basic Python configuration
 First, ensure that python3 is installed by running
 ```
