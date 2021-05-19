@@ -14,7 +14,7 @@ Python 3.6.4
 ### Creating a Virtual Environment
 The next thing is to create a python virtual environment. This is an important
 step because different projects may require libraries with different versions,
-and it can be a nightmare to manage this you install all of your libraries
+and it can be a nightmare to manage this if you install all of your libraries
 globally. To remedy this, we create python virtual environments. This is
 essentially a local installation of all library packages that you may need to
 use, and you create one for each project. I usually name all of my virtual
@@ -30,7 +30,7 @@ This command creates a virtual environment named venv in the current directory.
 python3 -m venv venv
 ```
 
-### Activating and Deactivating a virtual Enviroment
+### Activating and Deactivating a Virtual Enviroment
 Once you create your virtual environment, you need to let the bash interpreter
 know that you want to use that environment instead of the global one. You can
 do this with the source command.
@@ -58,11 +58,22 @@ for juptyer:
 pip install jupyterlab
 ```
 
+for matplotlib:
+```
+pip install matplotlib
+```
+
 You can also install multiple libraries at once using a txt file with the
 libraries listed. These are often called requirements.txt.
 ```
 pip install -r requirements.txt
 ```
+
+Note that you were never prompted for a password to install these packages.
+This is because you are installing them directly into the virtual environment
+and not modifying any configuration files. When you are done with the project
+or if you are have any issues with the virtual environment, you can simply
+delete it without worrying about anything else breaking.
 
 ## Running a Jupyter Notebook
 Now that you have activated your venv and installed jupyter, simply run the
